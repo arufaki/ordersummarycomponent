@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.container {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  min-width: 335px;
+  max-width: 335px;
+}
+
+h1 {
+  font-weight: 900;
+  padding-bottom: 25px;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  line-height: 2;
+  padding: 0 35px;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+}
+
+.order-summary {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-master {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.order-banner img {
+  max-width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.order-description {
+  margin: 30px 0;
+}
+
+.bill-payment {
+  display: flex;
+  justify-content: space-around;
+  max-width: 81%;
+  padding: 15px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.item p:not(.year) {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.year {
+  line-height: 1;
+}
+
+.item2 {
+  padding-top: 16px;
+}
+
+.proceed-button {
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  width: 81%;
+  border-radius: 10px;
+}
+
+.proceed-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.cancel-button {
+  padding: 30px 0;
+}
+
+.cancel-button a {
+  text-decoration: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
+
+.item2 a:hover {
+  text-decoration: none;
+  color: #766dec;
+  transition: all 0.5s;
+}
+
+.proceed-button:hover {
+  background-color: #766dec;
+  transition: all 0.5s;
+}
+
+.cancel-button a:hover {
+  color: hsl(223, 47%, 23%);
+  transition: all 0.5s;
+}
